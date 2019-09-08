@@ -17,7 +17,7 @@ public class Flights extends ApplicationUtilities
 	public Flights(WebDriver driver)
 	{
 		this.driver = driver;
-		//System.out.println("Flights Session ID :" + driver.getWindowHandle());
+		System.out.println("Flights Session ID :" + driver.getWindowHandle());
 	}
 	
 	public boolean bookFlight()

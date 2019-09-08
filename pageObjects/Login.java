@@ -21,7 +21,7 @@ public class Login
 	public Login(WebDriver driver)
 	{
 		this.driver = driver;
-		//System.out.println("Login Session ID :" + driver.getWindowHandle());
+		System.out.println("Login Session ID :" + driver.getWindowHandle());
 		myProp = new ReadProperties("TestData/inputData.properties");
 		PageFactory.initElements(driver, this);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
