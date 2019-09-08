@@ -11,8 +11,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class DataFromExel{
 	public static void main(String args[]) throws IOException{
-	 
-	//@DataProvider(name = "UserData")
+	 // reading data from exel
+	@DataProvider(name = "UserData")
 	// public static Object[][] readExcel() throws InvalidFormatException, IOException {
 		String filePath = "D:\\TestData.xlsx";
 		 String sheetName = "Sheet1";
