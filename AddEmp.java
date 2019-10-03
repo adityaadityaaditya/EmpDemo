@@ -30,6 +30,7 @@ public class AddEmp
 	
 	public void addEmpolyee(String loginNam,String password1,String FName,String LName,String birth,String salary,String cell)
 	{
+		assertTrue(emp.getText().equls("employe"));
 		emp.click();
 		add.click();
 		logname.sendKeys(loginNam);
